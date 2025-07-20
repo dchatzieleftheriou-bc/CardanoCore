@@ -11,30 +11,12 @@
         }
       },
       {
-        "package": "Bip39",
-        "repositoryURL": "https://github.com/tesseract-one/Bip39.swift.git",
-        "state": {
-          "branch": null,
-          "revision": "bb2b82539d685e1457493b695cdc8e4dcff97c92",
-          "version": "0.2.0"
-        }
-      },
-      {
         "package": "swift-collections",
         "repositoryURL": "https://github.com/apple/swift-collections",
         "state": {
           "branch": null,
           "revision": "c1805596154bb3a265fd91b8ac0c4433b4348fb0",
           "version": "1.2.0"
-        }
-      },
-      {
-        "package": "UncommonCrypto",
-        "repositoryURL": "https://github.com/tesseract-one/UncommonCrypto.swift.git",
-        "state": {
-          "branch": null,
-          "revision": "075344faec47dadba98bef6a319e310c98be0820",
-          "version": "0.2.1"
         }
       }
     ]

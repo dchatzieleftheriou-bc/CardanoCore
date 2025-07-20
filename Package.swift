@@ -15,7 +15,6 @@ var package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.2.1"),
-        .package(name: "Bip39", url: "https://github.com/tesseract-one/Bip39.swift.git", from: "0.1.1"),
         .package(url: "https://github.com/apple/swift-collections", from: "1.0.2")
     ],
     targets: [
@@ -46,7 +45,7 @@ let ccardano: Target = useLocalBinary ?
         path: "rust/binaries/CCardano.xcframework") :
     .binaryTarget(
         name: "CCardano",
-        url: "https://github.com/tesseract-one/Cardano.swift/releases/download/0.1.4/CCardano.binaries.zip",
+        url: "https://github.com/dchatzieleftheriou-bc/CardanoCore/releases/download/0.1.4/CCardano.binaries.zip",
         checksum: "50fa4995483338bab59ae6abf6bbfe50f6e05507bbcf4128087b75d049b9590e")
 package.targets.append(contentsOf: [
     ccardano
